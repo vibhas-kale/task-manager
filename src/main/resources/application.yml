@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: task-manager
+
+server:
+  servlet:
+    context-path: /task/manager/apiV1

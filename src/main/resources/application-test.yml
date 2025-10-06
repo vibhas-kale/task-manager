@@ -1,0 +1,14 @@
+spring:
+  config:
+    activate:
+      on-profile: test
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/taskdb
+    driver-class-name: org.postgresql.Driver
+    username: task
+    password: task
+
+  jpa:
+    hibernate:
+      ddl-auto: validate

@@ -1,4 +1,4 @@
-package com.vibhas.taskmanager;
+package com.vibhas.taskmanager.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

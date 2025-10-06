@@ -1,0 +1,14 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+  datasource:
+    url: jdbc:postgresql://<PROD_DB_HOST>:5432/taskdb
+    driver-class-name: org.postgresql.Driver
+    username: <prod_user>
+    password: <prod_password>
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
